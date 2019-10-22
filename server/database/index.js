@@ -1,0 +1,2 @@
+require('./gettherapist');
+require('./createRecord');
