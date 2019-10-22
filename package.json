@@ -1,0 +1,24 @@
+{
+  "name": "TestShrinc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "test": "tape test/ | tap-spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "airtable": "^0.7.1",
+    "env2": "^2.2.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0"
+  }
+}
