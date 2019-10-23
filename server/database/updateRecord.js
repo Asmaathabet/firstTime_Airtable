@@ -1,5 +1,5 @@
 var Airtable = require('airtable');
-var base = new Airtable({apiKey: 'YOUR_API_KEY'}).base('appTFjZlkbQpQHWD2');
+var base = new Airtable({apiKey: 'keysyd8xwzUlDZ19U'}).base('appTFjZlkbQpQHWD2');
 
 module.exports = base('therapist').update([
   {
